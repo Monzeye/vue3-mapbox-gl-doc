@@ -11,17 +11,18 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Use Node.js 18.x # 使用 Node.js 18.x 运行脚本
-        uses: actions/setup-node@v3
-        with:
-          node-version: 18
-      - name: Install
-        run: npm install
-      - name: Build
-        run: npm run docs:build
-
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Use Node.js 18.x # 使用 Node.js 18.x 运行脚本
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18.x'
+      - name: Install
+        run: yarn
+      - name: Build
+        run: yarn docs:build
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
