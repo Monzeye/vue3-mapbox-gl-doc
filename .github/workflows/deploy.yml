@@ -10,6 +10,11 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -17,7 +22,7 @@ jobs:
       - name: Use Node.js 18.x # 使用 Node.js 18.x 运行脚本
         uses: actions/setup-node@v4
         with:
-          node-version: '18.x'
+          node-version: "18.x"
       - name: Install
         run: yarn
       - name: Build
@@ -25,11 +30,11 @@ jobs:
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
-        
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: '.vitepress/dist'
+          path: ".vitepress/dist"
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
