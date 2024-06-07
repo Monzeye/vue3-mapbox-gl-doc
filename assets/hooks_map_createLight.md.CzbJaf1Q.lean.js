@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.CzjK-ZDI.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"hooks/map/createLight.md","filePath":"hooks/map/createLight.md"}'),o={name:"hooks/map/createLight.md"};function r(c,s,n,i,p,m){return a(),t("div")}const d=e(o,[["render",r]]);export{_ as __pageData,d as default};

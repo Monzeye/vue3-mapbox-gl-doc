@@ -1,0 +1,1 @@
+import{_ as e,c as a,o as r}from"./chunks/framework.CzjK-ZDI.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"hooks/map/createMarker.md","filePath":"hooks/map/createMarker.md"}'),t={name:"hooks/map/createMarker.md"};function o(c,s,n,p,m,_){return r(),a("div")}const k=e(t,[["render",o]]);export{i as __pageData,k as default};

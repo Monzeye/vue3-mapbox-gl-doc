@@ -1,0 +1,1 @@
+import{_ as e,c as a,o as t}from"./chunks/framework.CzjK-ZDI.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"hooks/map/createImage.md","filePath":"hooks/map/createImage.md"}'),o={name:"hooks/map/createImage.md"};function r(c,s,m,n,p,_){return t(),a("div")}const f=e(o,[["render",r]]);export{i as __pageData,f as default};

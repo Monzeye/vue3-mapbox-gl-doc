@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.CzjK-ZDI.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"hooks/map/createFog.md","filePath":"hooks/map/createFog.md"}'),o={name:"hooks/map/createFog.md"};function r(c,s,n,p,m,_){return a(),t("div")}const f=e(o,[["render",r]]);export{i as __pageData,f as default};

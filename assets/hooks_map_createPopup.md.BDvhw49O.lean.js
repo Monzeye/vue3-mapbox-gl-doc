@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.CzjK-ZDI.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"hooks/map/createPopup.md","filePath":"hooks/map/createPopup.md"}'),o={name:"hooks/map/createPopup.md"};function p(r,c,s,n,m,_){return a(),t("div")}const f=e(o,[["render",p]]);export{i as __pageData,f as default};

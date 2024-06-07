@@ -1,0 +1,1 @@
+import{_ as e,c as a,o as t}from"./chunks/framework.CzjK-ZDI.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"hooks/map/createMapbox.md","filePath":"hooks/map/createMapbox.md"}'),o={name:"hooks/map/createMapbox.md"};function r(c,s,p,n,m,_){return t(),a("div")}const f=e(o,[["render",r]]);export{i as __pageData,f as default};

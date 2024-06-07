@@ -1,0 +1,1 @@
+import{_ as e,c as a,o as r}from"./chunks/framework.CzjK-ZDI.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"hooks/map/createTerrain.md","filePath":"hooks/map/createTerrain.md"}'),t={name:"hooks/map/createTerrain.md"};function o(c,n,s,i,p,m){return r(),a("div")}const f=e(t,[["render",o]]);export{d as __pageData,f as default};

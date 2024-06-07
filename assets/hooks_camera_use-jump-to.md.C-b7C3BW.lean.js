@@ -1,1 +1,0 @@
-import{_ as e,c as t,o}from"./chunks/framework.CzjK-ZDI.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"hooks/camera/use-jump-to.md","filePath":"hooks/camera/use-jump-to.md"}'),a={name:"hooks/camera/use-jump-to.md"};function s(r,c,m,n,p,u){return o(),t("div")}const i=e(a,[["render",s]]);export{d as __pageData,i as default};
