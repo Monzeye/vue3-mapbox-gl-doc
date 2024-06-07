@@ -5,6 +5,30 @@ editLink: true
 
 # useChainCamera
 
+链条相机用来做视角运动，按照指定的数据做持续移动
+
+```ts
+interface ChainCameraItem {
+  lngLat: LngLatLike
+  lookAtLngLat: LngLatLike
+  duration: number
+  altitude: number
+  easing?:
+    | 'linear'
+    | 'easeInQuad'
+    | 'easeOutQuad'
+    | 'easeInOutQuad'
+    | 'easeInCubic'
+    | 'easeOutCubic'
+    | 'easeInOutCubic'
+}
+useChainCamera(options: {
+  map: ShallowRef<Map|null>
+  autoplay?: boolean
+  list: ChainCameraItem[]
+})
+```
+
 ::: code-group
 
 ```vue [Ts]

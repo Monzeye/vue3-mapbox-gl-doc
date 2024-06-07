@@ -3,9 +3,9 @@ title: Layers
 editLink: true
 ---
 
-# SymbolLayer
+# HillshadeLayer
 
-点标记图层
+山影图层
 
 
 
@@ -18,6 +18,8 @@ editLink: true
 | id?          | LayerId                                               | string                     | 随机生成   |
 | source?      | 数据源(组件放入Source组件中会自动引用)                | SourceId\|Object           | -          |
 | style?       | 样式                                                  | SymbolLayout & SymbolPaint | 官方默认值 |
+| renderingMode?       | 渲染模式                                                  | string | - |
+| slotName?       | slot 层级                                                  | 'bottom' | 'middle' | 'top' | - |
 | filter?      | 过滤项                                                | Expression                 | ['all']    |
 | sourceLayer? | 当source type为vector(VectorTileSource组件)时需要传入 | string                     | -          |
 | beforeId?    | 图层层级插入此LayerId之后                             | string                     | -          |
@@ -30,7 +32,7 @@ editLink: true
 
 | 事件名      | 说明               | 参数                                                     |
 | ----------- | ------------------ | -------------------------------------------------------- |
-| register    | source创建后触发   | (acitions:CreateLayerActions&lt;SymbolLayer&gt;,map:Map) |
+| register    | source创建后触发   | (acitions:CreateLayerActions&lt;HillshadeLayer&gt;,map:Map) |
 | click       | 点击元素时触发     | (ev:MapLayerMouseEvent)                                  |
 | dblclick    | 双击元素时触发     | (ev:MapLayerMouseEvent)                                  |
 | mousedown   | 鼠标按下元素时触发 | (ev:MapLayerMouseEvent)                                  |

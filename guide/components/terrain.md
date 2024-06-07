@@ -18,7 +18,7 @@ editLink: true
 | url?          | 地形资源地址 | string                                | -          |
 | tiles?        | 地形资源地址 | string[]                              | -          |
 | id?           | LayerId      | string                                | 官方默认值 |
-| options?      | 是否可拖拽   | Partial&lt;RasterDemSourceOptions&gt; | false      |
+| options?      | 配置项   | Partial&lt;RasterDemSourceOptions&gt; | false      |
 | exaggeration? | 夸张度       | number                                | 1          |
 
 ### Emits

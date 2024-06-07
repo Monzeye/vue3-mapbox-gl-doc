@@ -5,21 +5,20 @@ editLink: true
 
 # 安装/使用
 
-确认系统中已安装 node，通过 npm 或者 yarn 等包管理器来进行安装
-
 ### 安装
 
 ::: code-group
 
 ```bash [Yarn]
-$ yarn add vue3-mapbox-gl
+$ yarn add mapbox-gl vue3-mapbox-gl
 ```
 
 ```bash [Npm]
-$ npm install vue3-mapbox-gl
+$ npm install mapbox-gl vue3-mapbox-gl
 ```
-
 :::
+
+vue3-mapbox-gl会跟进官方最新版本，当安装mapbox-gl低版本时，会导致高版本的一些功能无法使用，所以推荐安装最新版本
 
 ### 使用
 
@@ -56,7 +55,22 @@ app.mount("#app");
 ```
 
 :::
+
+对于 ts 项目需要在 tsconfig.json 里面配置 types
+
+```json
+{
+  "compilerOptions": {
+    "types": [
+      // ...
+      "vue3-mapbox-gl/global"
+    ]
+  }
+}
+```
+
 组件
+
 ::: code-group
 
 ```vue [Ts]

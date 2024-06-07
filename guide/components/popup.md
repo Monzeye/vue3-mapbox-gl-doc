@@ -18,7 +18,7 @@ editLink: true
 | className?           | popup外层classname | string       | -          |
 | lnglat?              | 经纬度             | LngLatLike   | -          |
 | show? (V-model:show) | 是否显示           | boolean      | false      |
-| options?             | 是否可拖拽         | PopupOptions | 官方默认值 |
+| options?             | 配置项         | PopupOptions | 官方默认值 |
 
 ### Emits
 
